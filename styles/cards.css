@@ -1,0 +1,40 @@
+.card {
+    border-radius: 12px;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+#project-card {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-400);
+    padding: 12px;
+
+    h4,
+    p {
+        margin: 4px;
+    }
+
+    img {
+        width: 306px;
+        border-radius: 8px;
+    }
+
+    &:hover {
+        border: 1px solid var(--gray-300);
+    }
+}
+
+#services-card {
+    width: 280px;
+    height: 155px;
+    padding: 20px;
+
+    border: 2px solid var(--gray-500);
+
+    h4 {
+        margin: 20px 0 8px 0;
+    }
+}

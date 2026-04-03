@@ -12,6 +12,7 @@
         width: 1040px;
         height: 447px;
         gap: 80px;
+        margin-top: 13%;
 
         header {
             width: 680px;
@@ -51,18 +52,18 @@
     header {
         gap: 8px;
         margin-bottom: 56px;
-        
-        h3 {
-            font: var(--text-subtitle);
-            color: var(--red);
-        }
-
-        h2 {
-            font: var(--text-title-md);
-            color: var(--gray-100);
-        }
     }
+
     .content {
         width: 1040px;
+    }
+}
+
+#services {
+    background-color: var(--gray-600);
+
+    header {
+        gap: 8px;
+        margin-bottom: 56px;
     }
 }

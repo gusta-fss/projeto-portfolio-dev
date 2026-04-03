@@ -10,31 +10,3 @@
         width: 24px;
     }
 }
-
-#card {
-    width: 330px;
-    height: 280px;
-    background-color: var(--gray-400);
-    padding: 12px;
-    border-radius: 12px;
-
-    h4 {
-        font: var(--text-title-sm);
-        color: var(--gray-100);
-        margin: 24px 4px 0 4px;
-    }
-
-    p {
-        font: var(--text-sm);
-        margin: 8px 4px 4px 4px;
-    }
-
-    img {
-        width: 306px;
-        border-radius: 8px;
-    }
-
-    &:hover {
-        border: 1px solid var(--gray-300);
-    }
-}
