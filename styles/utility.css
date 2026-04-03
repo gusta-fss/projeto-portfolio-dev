@@ -11,7 +11,11 @@
 }
 
 .grid-rows-4 {
-    grid-template-rows: 1fr 917px 487px 787px;
+    grid-template-rows: 1fr 917px 487px 1fr;
+}
+
+.grid-rows-2 {
+    grid-template-rows: 1fr 1fr;
 }
 
 .flex {
@@ -32,4 +36,8 @@
 
 .col-red {
     color: var(--red);
+}
+
+.gap-24 {
+    gap: 24px;
 }

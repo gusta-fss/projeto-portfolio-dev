@@ -3,7 +3,7 @@
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
     background-position: center;
-    
+
     #info-icon {
         margin-top: 92px;
     }
@@ -44,5 +44,25 @@
             margin: 0;
             gap: 16px;
         }
+    }
+}
+
+#projects {
+    header {
+        gap: 8px;
+        margin-bottom: 56px;
+        
+        h3 {
+            font: var(--text-subtitle);
+            color: var(--red);
+        }
+
+        h2 {
+            font: var(--text-title-md);
+            color: var(--gray-100);
+        }
+    }
+    .content {
+        width: 1040px;
     }
 }
