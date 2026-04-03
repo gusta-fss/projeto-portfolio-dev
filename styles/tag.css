@@ -1,0 +1,12 @@
+#tag {
+    height: 40px;
+    width: fit-content;
+    background-color: var(--gray-400);
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 999px;
+
+    img {
+        width: 24px;
+    }
+}

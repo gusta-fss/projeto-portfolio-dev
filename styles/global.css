@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}    
+}
 
 :root {
     --red: #E3646E;
@@ -17,13 +17,12 @@
     --gray-500: #16181D;
     --gray-600: #0D0E11;
 
-
     --font-family-asap: "Asap", sans-serif;
     --font-family-inconsolata: "Inconsolata", monospace;
     --font-family-maven: "Maven Pro", sans-serif;
     --text-title-lg: bold 56px/120% var(--font-family-asap);
-    --text-title-lg: bold 24px/120% var(--font-family-asap);
-    --text-title-lg: bold 16px/120% var(--font-family-asap);
+    --text-title-md: bold 24px/120% var(--font-family-asap);
+    --text-title-sm: bold 16px/120% var(--font-family-asap);
     --text-subtitle: 20px/120% var(--font-family-inconsolata);
     --text-md: 16px/140% var(--font-family-maven);
     --text-sm: 14px/140% var(--font-family-maven);
@@ -33,4 +32,10 @@ body {
     font: var(--text-md);
     color: var(--gray-200);
     background-color: var(--gray-400);
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
 }

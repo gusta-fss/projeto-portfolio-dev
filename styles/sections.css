@@ -1,0 +1,48 @@
+#intro {
+    height: 100vh;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    
+    #info-icon {
+        padding-top: 92px;
+    }
+
+    #info {
+        width: 1040px;
+        height: 447px;
+        gap: 80px;
+
+        header {
+            width: 680px;
+            height: 327px;
+
+            h2 {
+                font: var(--text-subtitle);
+                margin: 56px 0 8px 0;
+
+                span {
+                    color: var(--red);
+                }
+            }
+
+            h1 {
+                font: var(--text-title-lg);
+                color: var(--gray-100);
+                margin-bottom: 20px;
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--gray-300);
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            gap: 16px;
+        }
+    }
+}

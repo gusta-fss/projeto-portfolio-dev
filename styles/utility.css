@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.grid-flow-row {
+    grid-auto-flow: row;
+}
+
+.grid-rows-4 {
+    grid-template-rows: 1fr 917px 487px 787px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.col-red {
+    color: var(--red);
+}
