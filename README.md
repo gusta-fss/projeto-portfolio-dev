@@ -8,7 +8,7 @@ Como o projeto é composto essencialmente por arquivos estáticos, você pode vi
 ### 1. Execução Local (Direto no navegador)
 1.  Faça o download ou clone este repositório:
     ```bash
-    git clone [https://github.com/gusta-fss/projeto-portfolio-dev.git](https://github.com/gusta-fss/projeto-portfolio-dev.git)
+    git clone https://github.com/gusta-fss/projeto-portfolio-dev.git
     ```
 2.  Navegue até a pasta do projeto.
 3.  Abra o arquivo **`index.html`** em qualquer navegador (Chrome, Firefox, Edge, etc.).
