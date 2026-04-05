@@ -67,3 +67,38 @@
         margin-bottom: 56px;
     }
 }
+
+#contact {
+
+    height: 100vh;
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: cover;
+    background-position: center;
+
+
+    h3 {
+        color: var(--purple);
+    }
+
+    header {
+        gap: 8px;
+        margin-bottom: 48px;
+    }
+
+    #link {
+        width: 400px;
+        height: 68px;
+        border-radius: 8px;
+        background-color: var(--gray-400);
+        padding: 20px;
+
+        img+p {
+            margin-left: 12px;
+            font: var(--text-md);
+        }
+
+        &:hover {
+            border: 1px solid var(--blue);
+        }
+    }
+}

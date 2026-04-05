@@ -26,6 +26,10 @@
     justify-content: center;
 }
 
+.justify-space-between {
+    justify-content: space-between;
+}
+
 .align-center {
     align-items: center;
 }
@@ -40,4 +44,8 @@
 
 .gap-24 {
     gap: 24px;
+}
+
+.gap-16 {
+    gap: 16px;
 }
